@@ -300,6 +300,15 @@ config.ircbot = {
   botName: 'gekkobot'
 }
 
+config.discordbot = {
+  enabled: false,
+  emitUpdates: true,
+  muteSoft: false,
+  channel: "",
+  token: ""
+}
+
+
 config.telegrambot = {
   enabled: false,
   emitUpdates: false,
