@@ -53,6 +53,17 @@ var plugins = [
     }]
   },
   {
+    name: 'Discord bot',
+    description: 'Discord module lets you communicate with Gekko on Discord.',
+    slug: 'discordbot',
+    async: false,
+    modes: ['realtime'],
+    dependencies: [{
+      module: 'discord.io',
+      version: '2.5.3'
+    }]
+  },
+  {
     name: 'Telegram bot',
     description: 'Telegram module lets you communicate with Gekko on Telegram.',
     slug: 'telegrambot',
